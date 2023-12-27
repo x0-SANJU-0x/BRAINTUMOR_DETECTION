@@ -7,7 +7,7 @@ SD = 20  # Number of sparrows who perceive the danger
 R2 = np.random.rand()  # Initialize R2 randomly
 n = 100  # Number of accuracy values
 Xbest = None  # Global optimal solution, initialize as None
-
+A=99
 # Define functions for updating sparrow locations
 def update_location_eq3(sparrow):
     # Update location using Eq. (3)
