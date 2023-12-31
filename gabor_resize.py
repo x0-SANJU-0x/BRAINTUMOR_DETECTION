@@ -6,7 +6,6 @@ input_directory =  'C:/Users/sanch/braintumor/dataset/no'
 output_directory =  'C:/Users/sanch/braintumor/dataset/noo' 
 input_file='C:/Users/sanch/braintumor/dataset/no'
 target_dimensions = (200, 200)  #dimensions 
-summa=100
 os.makedirs(output_directory, exist_ok=True)
 
 
