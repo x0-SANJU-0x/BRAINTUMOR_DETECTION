@@ -10,7 +10,7 @@ for i in range (0,1500):
     img2 = img.reshape(-1)
     df = pd.DataFrame()
     df['Original Image'] = img2
-
+    summa=0
 #Generate Gabor features
     num = 1  #To count numbers up in order to give Gabor features a lable in the data frame
     kernels = []  #Create empty list to hold all kernels that we will generate in a loop
